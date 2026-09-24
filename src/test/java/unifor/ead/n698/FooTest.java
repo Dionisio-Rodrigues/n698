@@ -41,9 +41,9 @@ public class FooTest {
         assertEquals(true, true);
     }
 
-    // @Test
-    // void fooDoSomethingDontPassTest() throws InterruptedException{
-    //     Thread.sleep(SLEEP_TIME);
-    //     assertEquals(false, true);
-    // }
+    @Test
+    void fooDoSomethingDontPassTest() throws InterruptedException{
+        Thread.sleep(SLEEP_TIME);
+        assertEquals(false, true);
+    }
 }
