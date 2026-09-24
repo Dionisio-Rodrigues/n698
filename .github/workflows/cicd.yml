@@ -57,6 +57,9 @@ jobs:
           path: dist
       
       - name: Simulação de Deploy
-        run: ls -lh dist echo "Deploy $(ls dist/*.jar) feito"
+        run: |
+          pwd
+          ls -lh dist
+          echo "Deploy $(ls dist/*.jar) feito"
 
 
